@@ -1,18 +1,10 @@
-/*
-  ==============================================================================
 
-    This file was auto-generated!
-
-    It contains the basic framework code for a JUCE plugin processor.
-
-  ==============================================================================
-*/
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
 
-//==============================================================================
+
 HeatAndPressureAudioProcessor::HeatAndPressureAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
      : AudioProcessor (BusesProperties()
@@ -31,7 +23,6 @@ HeatAndPressureAudioProcessor::~HeatAndPressureAudioProcessor()
 {
 }
 
-//==============================================================================
 const String HeatAndPressureAudioProcessor::getName() const
 {
     return JucePlugin_Name;
@@ -93,7 +84,7 @@ void HeatAndPressureAudioProcessor::changeProgramName (int index, const String& 
 {
 }
 
-//==============================================================================
+
 void HeatAndPressureAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
     // Use this method as the place to do any pre-playback
