@@ -3,8 +3,6 @@
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
-
-
 HeatAndPressureAudioProcessor::HeatAndPressureAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
      : AudioProcessor (BusesProperties()

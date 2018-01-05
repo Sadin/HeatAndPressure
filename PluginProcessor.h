@@ -3,10 +3,6 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 
-
-
-
-
 class HeatAndPressureAudioProcessor  : public AudioProcessor
 {
 public:
